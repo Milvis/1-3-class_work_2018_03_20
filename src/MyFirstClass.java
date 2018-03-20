@@ -37,3 +37,9 @@ public class MyFirstClass {
         System.out.println("Cia yra statinis metodas");
     }
 }
+//git komandos
+//git init
+//git add .
+//git commit "komentaras"
+//git remote add origin https://github.com/Milvis/1-3-class_work_2018_03_20.git
+//git push -u origin master
