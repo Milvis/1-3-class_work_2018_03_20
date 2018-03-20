@@ -43,3 +43,5 @@ public class MyFirstClass {
 //git commit "komentaras"
 //git remote add origin https://github.com/Milvis/1-3-class_work_2018_03_20.git
 //git push -u origin master
+
+//atnaujinimas kodo is git puses
