@@ -45,4 +45,6 @@ public class MyFirstClass {
 //git push -u origin master
 
 //////atnaujinimas kodo is git puses
-
+//git commit -m "komentaras"
+// prides viska kas src folderyje
+//git add src/.

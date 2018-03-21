@@ -1,4 +1,8 @@
 import java.util.Scanner;
+ /**
+Paprašyti vartotojo nurodyti kiek skaičių jis ketina įvesti, tuomet duoti jam įvesti tiek skaičių, kiek jis pasirinko.
+        Po įvedimo atvaizduoti tik tuos skaičius kurie buvo didesni nei 100.
+ **/
 
 public class SecondTask {
     //konstatnta apsirasom
