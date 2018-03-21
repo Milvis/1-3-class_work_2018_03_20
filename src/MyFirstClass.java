@@ -1,5 +1,6 @@
 public class MyFirstClass {
 
+    //psvm ir tab
     public static void main(String[] args){
         //sout atspausdinti
     System.out.println("Hello world");
@@ -7,7 +8,6 @@ public class MyFirstClass {
         //sukurtas objektas
         int a=10;
         MyFirstClass myFirstClass = new MyFirstClass();
-
         //nestatinis pasiekiam metoda per objekta
         myFirstClass.myNotStaticMethod(a);
 
@@ -44,4 +44,5 @@ public class MyFirstClass {
 //git remote add origin https://github.com/Milvis/1-3-class_work_2018_03_20.git
 //git push -u origin master
 
-//atnaujinimas kodo is git puses
+//////atnaujinimas kodo is git puses
+
