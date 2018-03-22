@@ -10,25 +10,39 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class PagrindaiKetvirta {
-    public static void main(String[] args) {
-        int mase=0;
-        int ugis=0;
-try {
-    Scanner sc = new Scanner(System.in);
-    System.out.print("Iveskite mase:");
-     mase = sc.nextInt();
-    System.out.println("Iveskite ugi:");
-     ugis = sc.nextInt();
-} catch (InputMismatchException e){
-    System.out.println("Blogai ivestas skaicius");
-}
 
-        System.out.println(kmiIdeksas(mase,ugis));
+    private static Scanner sc = new Scanner(System.in);
+
+    public static void main(String[] args) {
+
+
+        System.out.print("Iveskite mase:");
+        double mase = getCorreectNumber(); //kvieciam metoda kuris patikrina ar ivestas skaicius
+        System.out.println("Iveskite ugi:");
+        double ugis =getCorreectNumber(); //kvieciam metoda kuris patikrina ar ivestas skaicius
+
+        System.out.println(kmiIdeksas(mase, ugis));
     }
 
-    private static double kmiIdeksas(int svoris,int ugis){
-        double kmi=svoris/ Math.pow(ugis,2);
+//metodas patikrinti ar ivestas skaicius ir jeigu ne, ismeta klaida ir vel leidzia ivesti skaiciu
+    private static double getCorreectNumber() {
+        double result = 0.0;
 
-         return kmi;
+        while (true) {  //ciklas kad leistu pakartotinai ivesti po blogo bandymo
+            try {
+                result = sc.nextDouble();
+                break;  //break po sekmingo nuskaitymo
+            } catch (InputMismatchException e) {
+                System.out.println("Blogas skacius bandykite ivesti dar karta:");
+                sc.nextLine(); // perkeliam i kita eilute kad eitu toliau
+            }
+        }
+        return result;
+    }
+
+
+    private static double kmiIdeksas(double svoris, double ugis) {
+        double kmi = svoris / Math.pow(ugis, 2);
+        return kmi;
     }
 }

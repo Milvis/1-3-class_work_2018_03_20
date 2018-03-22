@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06b52116-e361-4bab-a705-d4b8df4fddfa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/EightTask.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/NinthTask.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PagrindaiKetvirta.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PagrindaiPirmaKlasej.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/PagrindaiPenkta.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/PagrindaiSesta.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/PagrindaiTreciaKlasej.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/2018_03_20_pirma_uzduotis/PagrindaiAntra.class" afterPath="$PROJECT_DIR$/out/production/2018_03_20_pirma_uzduotis/PagrindaiAntra.class" />
-      <change beforePath="$PROJECT_DIR$/src/PagrindaiAntra.java" afterPath="$PROJECT_DIR$/src/PagrindaiAntra.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/2018_03_20_pirma_uzduotis/PagrindaiKetvirta.class" afterPath="$PROJECT_DIR$/out/production/2018_03_20_pirma_uzduotis/PagrindaiKetvirta.class" />
+      <change beforePath="$PROJECT_DIR$/src/PagrindaiKetvirta.java" afterPath="$PROJECT_DIR$/src/PagrindaiKetvirta.java" />
+      <change beforePath="$PROJECT_DIR$/src/PagrindaiTrecia.java" afterPath="$PROJECT_DIR$/src/PagrindaiTrecia.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,16 +38,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SecondTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ThirdTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ThirdTask.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,16 +73,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EightTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EightTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PagrindaiPirmaKlasej.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PagrindaiPirmaKlasej.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PagrindaiAntra.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PagrindaiAntra.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PagrindaiAntra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
+            <state relative-caret-position="680">
               <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#0#2032#0" expanded="true" />
@@ -117,10 +98,35 @@
       <file leaf-file-name="PagrindaiKetvirta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PagrindaiKetvirta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="40" selection-end-column="5" />
               <folding>
-                <element signature="e#0#1159#0" expanded="true" />
+                <element signature="e#0#1835#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PagrindaiPenkta.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PagrindaiPenkta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#2074#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PagrindaiSesta.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PagrindaiSesta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -130,10 +136,22 @@
       <file leaf-file-name="PagrindaiTrecia.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PagrindaiTrecia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-480">
-              <caret line="18" column="87" lean-forward="false" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+            <state relative-caret-position="-600">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="e#0#2811#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PagrindaiTreciaKlasej.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PagrindaiTreciaKlasej.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#2911#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,13 +186,16 @@
         <option value="$PROJECT_DIR$/src/FourthTask.java" />
         <option value="$PROJECT_DIR$/src/SixTask.java" />
         <option value="$PROJECT_DIR$/src/PagrindaiPirma.java" />
-        <option value="$PROJECT_DIR$/src/PagrindaiTrecia.java" />
         <option value="$PROJECT_DIR$/src/SevenTask.java" />
         <option value="$PROJECT_DIR$/src/EightTask.java" />
         <option value="$PROJECT_DIR$/src/PagrindaiPirmaKlasej.java" />
         <option value="$PROJECT_DIR$/src/NinthTask.java" />
-        <option value="$PROJECT_DIR$/src/PagrindaiKetvirta.java" />
         <option value="$PROJECT_DIR$/src/PagrindaiAntra.java" />
+        <option value="$PROJECT_DIR$/src/PagrindaiTrecia.java" />
+        <option value="$PROJECT_DIR$/src/PagrindaiTreciaKlasej.java" />
+        <option value="$PROJECT_DIR$/src/PagrindaiKetvirta.java" />
+        <option value="$PROJECT_DIR$/src/PagrindaiPenkta.java" />
+        <option value="$PROJECT_DIR$/src/PagrindaiSesta.java" />
       </list>
     </option>
   </component>
@@ -275,27 +296,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PagrindaiAntra">
+  <component name="RunManager" selected="Application.PagrindaiSesta">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="NinthTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NinthTask" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="2018_03_20_pirma_uzduotis" />
-      <envs />
     </configuration>
     <configuration name="PagrindaiAntra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -325,9 +332,9 @@
       <module name="2018_03_20_pirma_uzduotis" />
       <envs />
     </configuration>
-    <configuration name="PagrindaiPirma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PagrindaiPenkta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PagrindaiPirma" />
+      <option name="MAIN_CLASS_NAME" value="PagrindaiPenkta" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -339,9 +346,23 @@
       <module name="2018_03_20_pirma_uzduotis" />
       <envs />
     </configuration>
-    <configuration name="PagrindaiPirmaKlasej" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PagrindaiSesta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PagrindaiPirmaKlasej" />
+      <option name="MAIN_CLASS_NAME" value="PagrindaiSesta" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="2018_03_20_pirma_uzduotis" />
+      <envs />
+    </configuration>
+    <configuration name="PagrindaiTreciaKlasej" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="PagrindaiTreciaKlasej" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -428,19 +449,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PagrindaiPirma" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PagrindaiPirmaKlasej" />
-      <item index="2" class="java.lang.String" itemvalue="Application.NinthTask" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PagrindaiAntra" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PagrindaiKetvirta" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PagrindaiAntra" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PagrindaiKetvirta" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PagrindaiTreciaKlasej" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PagrindaiPenkta" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PagrindaiSesta" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PagrindaiAntra" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PagrindaiKetvirta" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NinthTask" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PagrindaiPirmaKlasej" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PagrindaiPirma" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PagrindaiSesta" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PagrindaiPenkta" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PagrindaiKetvirta" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PagrindaiTreciaKlasej" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PagrindaiAntra" />
       </list>
     </recent_temporary>
   </component>
@@ -462,12 +483,12 @@
       <workItem from="1521631127925" duration="5397000" />
       <workItem from="1521649458027" duration="11224000" />
       <workItem from="1521699501939" duration="12693000" />
-      <workItem from="1521736104967" duration="6262000" />
+      <workItem from="1521736104967" duration="10662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43204000" />
+    <option name="totallyTimeSpent" value="47604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,10 +666,10 @@
         <state relative-caret-position="760">
           <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -721,10 +742,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -748,10 +769,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -761,10 +782,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -801,10 +822,10 @@
         <state relative-caret-position="760">
           <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -879,16 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PagrindaiTrecia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="18" column="87" lean-forward="false" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#2811#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ThirdTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -926,23 +937,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PagrindaiAntra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2032#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PagrindaiTrecia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#2811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PagrindaiTreciaKlasej.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PagrindaiKetvirta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="40" selection-end-column="5" />
           <folding>
-            <element signature="e#0#1159#0" expanded="true" />
+            <element signature="e#0#1835#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PagrindaiAntra.java">
+    <entry file="file://$PROJECT_DIR$/src/PagrindaiPenkta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="58" selection-end-column="5" />
           <folding>
-            <element signature="e#0#2032#0" expanded="true" />
+            <element signature="e#0#2074#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PagrindaiSesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

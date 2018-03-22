@@ -1,3 +1,4 @@
+
 /*
 Parašykite programą kuri padėtu moksleiviui atlikti matematikos darbus. Jam reikia apskaičiuoti figūrų plotus.
 Visi plotai skaičiuojami atskiruose metoduose. Moksleivis įveda rodmenys
@@ -9,7 +10,6 @@ c.   	Kvadrato plotas, rezultatas = a^2
 d.  	Apskritimo plotas, Formulė rezultatas = pi*(a^2). Pi = 3.1415
 
  */
-
 import java.util.Scanner;
 
 public class PagrindaiTrecia {
