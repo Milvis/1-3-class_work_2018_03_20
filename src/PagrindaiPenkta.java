@@ -34,7 +34,7 @@ public class PagrindaiPenkta {
                 result = sc.nextDouble();
                 break;  //break po sekmingo nuskaitymo
             } catch (InputMismatchException e) {
-                System.out.println("Blogas skacius bandykite ivesti dar karta:");
+                System.out.println("Blogas sk acius bandykite ivesti dar karta:");
                 sc.nextLine(); // perkeliam i kita eilute kad eitu toliau
             }
         }

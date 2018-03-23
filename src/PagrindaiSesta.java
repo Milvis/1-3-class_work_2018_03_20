@@ -14,17 +14,39 @@ ir netinkamą operaciją reikia prašyti pakartoti įvedimą.
 
  */
 public class PagrindaiSesta {
-    private static Scanner sc=new Scanner(System.in);
+    private static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
 
         System.out.print("Skaiciuotuvas iveskite ka norite skaiciuoti:");
-        String skaiciuotuvas=sc.nextLine();
-        String[] masyvas=splitString(skaiciuotuvas);
-        for (int i=0; i<masyvas.length;i++){
-            
-        }
+        String skaiciuotuvas = sc.nextLine();
+        String[] masyvas = splitString(skaiciuotuvas);
 
+        int sk1 = Integer.parseInt(masyvas[0]);
+        char zenklas = masyvas[1].charAt(0);
+        int sk2 = Integer.parseInt(masyvas[2]);
+        switch (zenklas) {
+            case '+':
+                sudetis(sk1, sk2);
+                break;
+            case '-':
+                skirtumas(sk1, sk2);
+                break;
+            case '/':
+                dalyba(sk1, sk2);
+                break;
+            case '*':
+                daugyba(sk1, sk2);
+                break;
+            case '^':
+                kelimasLaipsniu(sk1, sk2);
+                break;
+            default:
+                System.out.println("Netinkamas zenklas!!");
+                break;
+        }
     }
+
 
     //metodas nuskaitymui
     private static double getCorreectNumber() {
@@ -43,14 +65,43 @@ public class PagrindaiSesta {
     }
 
     //split string
-    private static String[] splitString(String test){
+    private static String[] splitString(String test) {
 
-        String[] items=test.split(" "); //atskiria String per tarpa i sudeda i masyva
+        String[] items = test.split(" "); //atskiria String per tarpa i sudeda i masyva
         return items;
 //        for(String t:items){
 ////            System.out.println(t);
 ////        }
     }
 
+    private static void sudetis(int a, int b) {
+        int suma = a + b;
+        System.out.println(a + "+" + b + "=" + suma);
+    }
+
+    private static void skirtumas(int a, int b) {
+        int ats = a - b;
+        System.out.println(a + "-" + b + "=" + ats);
+    }
+
+    private static void dalyba(int a, int b) {
+        double ats = 0;
+        if (b != 0) {
+            ats = a / b;
+            System.out.println(a + "/" + b + "=" + ats);
+        } else {
+            System.out.println("Dalyba is 0 negalima !!!");
+        }
+    }
+
+    private static void daugyba(int a, int b) {
+        double ats = a * b;
+        System.out.println(a + "*" + b + "=" + ats);
+    }
+
+    private static void kelimasLaipsniu(int a, int b) {
+        double ats = Math.pow(a, b);
+        System.out.println(a + "^" + b + "=" + ats);
+    }
 
 }

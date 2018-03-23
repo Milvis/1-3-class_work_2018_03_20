@@ -16,32 +16,28 @@ public class PagrindaiAntra {
         String zodis = skaitymas.nextLine();
         String sakinys = zodis.toLowerCase().replaceAll(" ", ""); //mazosios raides ir be tarpu
         System.out.println("sakinys be tarpu: " + sakinys);
-        int a = 0;
-        int b = sakinys.length() - 1;
-        int c = 0;
-
-//        for (int i = 0; i < sakinys.length() / 2; i++) {
-//            if (sakinys.charAt(a) == sakinys.charAt(b)) {
-//                a++;
-//                b--;
-//                c++;
-//                //char pradzia=a.charAt(i); //ima raides nuopradziu
-//                //char pabaiga=a.charA(a.length()-1-i);   //ima raidas nuo galo
-//            }}
-                if(arPolindromas(sakinys)){
-                    System.out.println("Polindromas");
-                } else{
-                    System.out.println("Ne polindromas");
-                }
-
-
-//        if (c >= (sakinys.length() / 2)) {
-//            System.out.println("Zodis yra polindromas");
-//        } else {
-//            System.out.println("Nera polindromas");
-//        }
+//        int a = 0;
+//        int b = sakinys.length() - 1;
+//        int c = 0;
+////        for (int i = 0; i < sakinys.length() / 2; i++) {
+////            if (sakinys.charAt(a) == sakinys.charAt(b)) {
+////                a++;
+////                b--;
+////                c++;
+////
+////            }}
+//
+////        if (c >= (sakinys.length() / 2)) {
+////            System.out.println("Zodis yra polindromas");
+////        } else {
+////            System.out.println("Nera polindromas");
+////        }
 //comment ctrl+/
-
+        if(arPolindromas(sakinys)){
+            System.out.println("Polindromas");
+        } else{
+            System.out.println("Ne polindromas");
+        }
 
     }
     private static boolean arPolindromas(String word){
@@ -55,3 +51,5 @@ public class PagrindaiAntra {
         return result;
     }
 }
+//char pradzia=a.charAt(i); //ima raides nuopradziu
+//                //char pabaiga=a.charA(a.length()-1-i);   //ima raidas nuo galo
