@@ -22,6 +22,7 @@ public class PagrindaiSesta {
         String skaiciuotuvas = sc.nextLine();
         String[] masyvas = splitString(skaiciuotuvas);
 
+
         int sk1 = Integer.parseInt(masyvas[0]);
         char zenklas = masyvas[1].charAt(0);
         int sk2 = Integer.parseInt(masyvas[2]);
