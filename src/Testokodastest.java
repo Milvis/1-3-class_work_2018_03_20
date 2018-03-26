@@ -10,6 +10,11 @@ public class Testokodastest {
         }else {
             System.out.println(0);
         }
+
+        int[] mas={2,3,5};
+        
     }
+
+
 
 }

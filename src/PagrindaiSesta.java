@@ -23,9 +23,9 @@ public class PagrindaiSesta {
         String[] masyvas = splitString(skaiciuotuvas);
 
 
-        int sk1 = Integer.parseInt(masyvas[0]);
+        double sk1 = getCorrectDouble(sc,masyvas[0]);
         char zenklas = masyvas[1].charAt(0);
-        int sk2 = Integer.parseInt(masyvas[2]);
+        double sk2 = getCorrectDouble(sc,masyvas[2]);
         switch (zenklas) {
             case '+':
                 sudetis(sk1, sk2);
@@ -50,7 +50,7 @@ public class PagrindaiSesta {
 
 
     //metodas nuskaitymui
-    private static double getCorreectNumber() {
+    private static double getCorreectNumber(Scanner sc) {
         double result = 0.0;
 
         while (true) {  //ciklas kad leistu pakartotinai ivesti po blogo bandymo
@@ -65,6 +65,17 @@ public class PagrindaiSesta {
         return result;
     }
 
+    private static double getCorrectDouble(Scanner sc, String num){
+        double result=0.0;
+                try{
+                    result=Double.valueOf(num);
+                }catch (NumberFormatException e){
+                    System.out.println("Blogai ivestas skaicius");
+                    result=getCorreectNumber(sc);
+                }
+                return result;
+    }
+
     //split string
     private static String[] splitString(String test) {
 
@@ -75,17 +86,17 @@ public class PagrindaiSesta {
 ////        }
     }
 
-    private static void sudetis(int a, int b) {
-        int suma = a + b;
+    private static void sudetis(double a, double b) {
+        double suma = a + b;
         System.out.println(a + "+" + b + "=" + suma);
     }
 
-    private static void skirtumas(int a, int b) {
-        int ats = a - b;
+    private static void skirtumas(double a, double b) {
+        double ats = a - b;
         System.out.println(a + "-" + b + "=" + ats);
     }
 
-    private static void dalyba(int a, int b) {
+    private static void dalyba(double a, double b) {
         double ats = 0;
         if (b != 0) {
             ats = a / b;
@@ -95,12 +106,12 @@ public class PagrindaiSesta {
         }
     }
 
-    private static void daugyba(int a, int b) {
+    private static void daugyba(double a, double b) {
         double ats = a * b;
         System.out.println(a + "*" + b + "=" + ats);
     }
 
-    private static void kelimasLaipsniu(int a, int b) {
+    private static void kelimasLaipsniu(double a, double b) {
         double ats = Math.pow(a, b);
         System.out.println(a + "^" + b + "=" + ats);
     }
