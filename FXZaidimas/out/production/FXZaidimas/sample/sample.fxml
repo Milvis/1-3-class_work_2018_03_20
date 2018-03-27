@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="598.0" prefWidth="643.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="577.0" prefWidth="603.0" GridPane.rowIndex="1">
+         <children>
+            <Button layoutX="255.0" layoutY="420.0" mnemonicParsing="false" onAction="#spejimas" prefHeight="37.0" prefWidth="95.0" text="Spėk">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Button>
+            <TextField fx:id="ivedimoLaukas" layoutX="230.0" layoutY="379.0" prefHeight="39.0" prefWidth="148.0" promptText="Įveskite skaičių">
+               <font>
+                  <Font size="18.0" />
+               </font></TextField>
+            <Label fx:id="isvedimas" layoutX="30.0" layoutY="182.0" prefHeight="166.0" prefWidth="545.0" wrapText="true">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="181.0" text="Random GAME" textFill="#c30f0f">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

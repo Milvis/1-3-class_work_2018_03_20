@@ -11,19 +11,26 @@
 
 <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Pane prefHeight="630.0" prefWidth="1018.0">
+      <Pane prefHeight="600.0" prefWidth="600.0">
          <children>
-            <Label fx:id="myDummyText" alignment="CENTER" layoutX="142.0" layoutY="276.0" prefHeight="78.0" prefWidth="735.0" text="Labas" textOverrun="CLIP">
+            <TextField fx:id="ivedimoLaukas1" layoutX="191.0" layoutY="234.0" />
+            <TextField fx:id="ivedimoLaukas2" layoutX="191.0" layoutY="300.0" />
+            <Button layoutX="252.0" layoutY="406.0" mnemonicParsing="false" onAction="#changeText" text="Button" />
+            <Label fx:id="myDummyText" alignment="CENTER" layoutX="103.0" layoutY="115.0" prefHeight="21.0" prefWidth="395.0">
                <font>
-                  <Font size="50.0" />
+                  <Font size="29.0" />
                </font>
             </Label>
-            <Button alignment="CENTER" layoutX="437.0" layoutY="447.0" mnemonicParsing="false" onAction="#changeText" prefHeight="49.0" prefWidth="145.0" text="Keisti žodį">
+            <Label layoutX="68.0" layoutY="239.0" text="Vardas">
                <font>
-                  <Font size="24.0" />
+                  <Font size="18.0" />
                </font>
-            </Button>
-            <TextField fx:id="myDummyTextField" layoutX="351.0" layoutY="385.0" prefWidth="317.0" promptText="Įveskite savo vardą" />
+            </Label>
+            <Label layoutX="68.0" layoutY="305.0" text="Pavardė">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
          </children></Pane>
    </children>
    <columnConstraints>
