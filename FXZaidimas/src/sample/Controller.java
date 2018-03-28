@@ -19,25 +19,30 @@ public class Controller {
 
         Random rand = new Random();
         int randomNumber = rand.nextInt(10) + 1; //kad isvestu 10 skaiciu o ne iki 9 ir be 0.
-       try{
-        int sk = Integer.valueOf(ivedimoLaukas.getText()); //string konvert i integer nes i textfield tik string isiveda tada paverciam i int
-        ivedimoLaukas.setText("");
-        if(randomNumber==sk){
-         //   System.out.println("Jus atspejote skaicius buvo "+sk);
-            isvedimas.setText("Jūs atspėjote "+"\nSugeneruotas skaičius buvo "+randomNumber+"\nJūsų spėtas skaičius buvo "+sk);
-        }else{
-         //   System.out.println("Spekite dar karta");
-            isvedimas.setText("Spėkite dar kartą, sugeneruotas skaičius buvo "+randomNumber+"\nJūsų spėtas skaičius buvo "+sk);
-        }} catch (NumberFormatException e){
+        try {
+            int sk = Integer.valueOf(ivedimoLaukas.getText()); //string konvert i integer nes i textfield tik string isiveda tada paverciam i int
+            ivedimoLaukas.setText("");
+            if(sk<=10){
+            if (randomNumber == sk) {
+                //   System.out.println("Jus atspejote skaicius buvo "+sk);
+                isvedimas.setText("Jūs atspėjote " + "\nSugeneruotas skaičius buvo " + randomNumber + "\nJūsų spėtas skaičius buvo " + sk);
+            } else {
+                //   System.out.println("Spekite dar karta");
+                isvedimas.setText("Spėkite dar kartą, sugeneruotas skaičius buvo " + randomNumber + "\nJūsų spėtas skaičius buvo " + sk);
+            }
+            }
+            else{
+                isvedimas.setText("Ivestas netinkamas skaičius.\nŽaidimas spėja skaičius nuo 1 iki 10");
+            }
 
-           //alert objektas
-           ivedimoLaukas.setText("");
-           Alert alert = new Alert(Alert.AlertType.ERROR);
-           alert.setContentText("Ką čia darai?");
-           alert.show();
-         // isvedimas.setText("Blogai įvestas skaičius");
-       }
+        } catch (NumberFormatException e) {
 
-}
-
+            //alert objektas
+            ivedimoLaukas.setText("");
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("Ką čia darai?");
+            alert.show();
+            // isvedimas.setText("Blogai įvestas skaičius");
+        }
     }
+}

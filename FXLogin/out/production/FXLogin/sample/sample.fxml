@@ -16,7 +16,7 @@
             <TextField fx:id="ivedimoLaukas1" layoutX="191.0" layoutY="234.0" />
             <TextField fx:id="ivedimoLaukas2" layoutX="191.0" layoutY="300.0" />
             <Button layoutX="252.0" layoutY="406.0" mnemonicParsing="false" onAction="#changeText" text="Button" />
-            <Label fx:id="myDummyText" layoutX="103.0" layoutY="115.0" prefHeight="21.0" prefWidth="395.0">
+            <Label fx:id="myDummyText" alignment="CENTER" layoutX="103.0" layoutY="115.0" prefHeight="21.0" prefWidth="395.0">
                <font>
                   <Font size="29.0" />
                </font>

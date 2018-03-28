@@ -1,0 +1,8 @@
+Jonas 15
+Petras 5
+Antanas 9
+Stasys 8
+Jonas 44
+Antanas 54
+Stasys 20
+Juozas 3
