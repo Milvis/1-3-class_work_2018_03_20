@@ -18,7 +18,7 @@
                   <Font name="Arial Bold" size="24.0" />
                </font>
             </Button>
-            <TextField fx:id="ivedimoLaukas" layoutX="230.0" layoutY="379.0" prefHeight="39.0" prefWidth="148.0" promptText="Įveskite skaičių">
+            <TextField fx:id="ivedimoLaukas" layoutX="230.0" layoutY="379.0" onKeyReleased="#enterClicked" prefHeight="39.0" prefWidth="148.0" promptText="Įveskite skaičių">
                <font>
                   <Font size="18.0" />
                </font></TextField>
