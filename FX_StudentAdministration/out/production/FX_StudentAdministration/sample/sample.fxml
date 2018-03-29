@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="629.0" prefWidth="766.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="620.0" prefWidth="900.0">
+         <children>
+            <TableView fx:id="table" layoutX="4.0" layoutY="14.0" prefHeight="413.0" prefWidth="757.0">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="name" prefWidth="149.0" text="Name" />
+                  <TableColumn fx:id="surname" prefWidth="128.0" text="Surname" />
+                  <TableColumn fx:id="phone" prefWidth="172.0" text="Phone number" />
+                  <TableColumn fx:id="email" prefWidth="232.0" text="e-mail" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
