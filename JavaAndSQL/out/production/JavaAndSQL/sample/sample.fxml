@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="1050.0">
+         <children>
+            <TableView fx:id="table" layoutX="14.0" layoutY="14.0" prefHeight="356.0" prefWidth="1029.0">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+                <TableColumn fx:id="name" prefWidth="179.0" text="Vardas" />
+                  <TableColumn fx:id="surname" prefWidth="175.0" text="Pavardė" />
+                  <TableColumn fx:id="phone" prefWidth="165.0" text="Telefono nr." />
+                  <TableColumn fx:id="email" prefWidth="206.0" text="E-mail" />
+              </columns>
+            </TableView>
+            <Button fx:id="mygtukas" layoutX="14.0" layoutY="407.0" mnemonicParsing="false" text="Nuskaityti" />
+         </children>
+      </Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
