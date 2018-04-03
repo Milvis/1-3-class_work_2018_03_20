@@ -16,14 +16,17 @@
     <tr>
         <th> ID</th>
         <th> Name</th>
+        <th> Surname</th>
         <th> Phone</th>
         <th> E-mail</th>
     </tr>
     </thead>
     <tbody>
-    <c:forEach items="${students}" var="st">  //kiekvieno zingsnio metu ims studentuspo viena ir saugo i "st"
+    <%--kiekvieno zingsnio metu ims studentuspo viena ir saugo i "st"--%>
+    <c:forEach items="${students}" var="st">
         <tr>
-            <td>${st.id}</td> //stulpeliai
+            <td><a href="/editstudentservlet?id=${st.id}">${st.id}</a></td>
+            <%--//stulpeliai--%>
             <td>${st.name}</td>
             <td>${st.surname}</td>
             <td>${st.phone}</td>

@@ -8,7 +8,7 @@ import java.io.IOException;
 /*@WebServlet(value="/myFirstServlet")
 
  */
-@WebServlet(value="/")
+@WebServlet(value="/myFirstServlet")
 public class MyFirstServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
