@@ -6,6 +6,7 @@
 
 </head>
 <body>
+
 <%-- CIA BUS JUSU PUSLAPIO VISAS KODAS--%>
 
 <a href="/login" class="btn btn-primary btn-lg active" role="button">Prisijunkite</a>
