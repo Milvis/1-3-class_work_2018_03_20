@@ -7,7 +7,6 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           crossorigin="anonymous">
-
 </head>
 <body>
 <%-- CIA BUS JUSU PUSLAPIO VISAS KODAS--%>
@@ -25,8 +24,9 @@
     <%--kiekvieno zingsnio metu ims studentuspo viena ir saugo i "st"--%>
     <c:forEach items="${students}" var="st">
         <tr>
-            <td><a href="/editstudentservlet?id=${st.id}">${st.id}</a></td>
-            <%--//stulpeliai--%>
+                <td><a href="/editstudentservlet?id=${st.id}">${st.id}</a></td>
+                <%--//stulpeliai--%>
+            <%--<td>${st.id}</td>--%>
             <td>${st.name}</td>
             <td>${st.surname}</td>
             <td>${st.phone}</td>
