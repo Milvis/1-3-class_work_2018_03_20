@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -10,18 +9,17 @@
 
 <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Pane prefHeight="600.0" prefWidth="1050.0">
+      <Pane prefHeight="400.0" prefWidth="800.0">
          <children>
-            <TableView fx:id="table" layoutX="14.0" layoutY="14.0" prefHeight="356.0" prefWidth="1029.0">
+            <TableView fx:id="table" prefHeight="380.0" prefWidth="750.0">
               <columns>
-                <TableColumn fx:id="id" prefWidth="75.0" text="id" />
-                <TableColumn fx:id="name" prefWidth="179.0" text="Vardas" />
-                  <TableColumn fx:id="surname" prefWidth="175.0" text="Pavardė" />
-                  <TableColumn fx:id="phone" prefWidth="165.0" text="Telefono nr." />
-                  <TableColumn fx:id="email" prefWidth="206.0" text="E-mail" />
+                <TableColumn fx:id="id" prefWidth="59.0" text="ID" />
+                <TableColumn fx:id="name" prefWidth="163.0" text="Name" />
+                  <TableColumn fx:id="surname" prefWidth="147.0" text="Surname" />
+                  <TableColumn fx:id="phone" prefWidth="165.0" text="Phone" />
+                  <TableColumn fx:id="email" prefWidth="215.0" text="E-mail" />
               </columns>
             </TableView>
-            <Button fx:id="mygtukas" layoutX="14.0" layoutY="407.0" mnemonicParsing="false" onAction="#initialize" text="Nuskaityti" />
          </children>
       </Pane>
    </children>
