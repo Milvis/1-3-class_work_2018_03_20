@@ -1,8 +1,7 @@
-import java.net.URL;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.ResourceBundle;
+
 
 
 public class StudentuAdministravimasCmd {
@@ -24,21 +23,24 @@ public class StudentuAdministravimasCmd {
         if (connection != null) {
             try {
                 Statement st = connection.createStatement();
-                ResultSet resultSet = st.executeQuery("SELECT * FROM students");
+                ResultSet resultSet = st.executeQuery("SELECT * FROM persons");
                 List<Studentai> studentai = new ArrayList<>();
                 if (resultSet.next()) {
-                    while (resultSet.next()) {
+                    do {
                         studentai.add(new Studentai(resultSet.getInt("id"), resultSet.getString("name"),
                                 resultSet.getString("surname"),
                                 resultSet.getString("phone"), resultSet.getString("email")));
-                    }
-                    System.out.println();
-                    System.out.println("Duomenu bazeje esanciu studentu sarasas:");
-                    spausdtinti(studentai);
-                } else {
+                    } while (resultSet.next());
+                        System.out.println();
+                        System.out.println("Duomenu bazeje esanciu studentu sarasas:");
+                        spausdtinti(studentai);
+                }
+                else {
                     //jeidu lentele tuscia irasom i ja studenta
+                    System.out.println("Lentele pateiktoje DB yra tuscia, pridesime viena studenta");
                     duomenysIdetiIDb(connection);
-                    spausdtinti(studentai);
+                    //kad atspausdinti atnaujinta lentele naudojam nuskaitymo metoda
+                    duomenysIsDb(connection);
                 }
             } catch (SQLException e) {
                 e.printStackTrace();
@@ -51,7 +53,7 @@ public class StudentuAdministravimasCmd {
         if (connection != null) {
             try {
                 Statement st = connection.createStatement();
-                st.execute("INSERT INTO students(name,surname,phone,email)VALUES('Alvydas','Trambulis','+368745214','alvydopastas@gmail.com')");
+                st.execute("INSERT INTO persons(name,surname,phone,email)VALUES('Alvydas','Trambulis','+368745214','alvydopastas@gmail.com')");
             } catch (SQLException e) {
                 e.printStackTrace();
             }
